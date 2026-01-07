@@ -30,4 +30,4 @@ jobs:
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/mirage:latest
 
       - name: Trigger Render deploy
-        run: curl "${{ secrets.RENDER_DEPLOY_HOOK }}
+        run: curl "${{ secrets.RENDER_DEPLOY_HOOK }}"
